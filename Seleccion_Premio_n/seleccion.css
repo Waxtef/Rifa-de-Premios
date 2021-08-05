@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css?family=Inconsolata');
+
+html, body {
+  overflow: hidden;
+}
+
+body {
+  
+
+  font-family: 'Inconsolata';
+  font-weight: bold;
+  font-size: 12vmin;
+  text-shadow: 1px 1px 5px rgba(0,0,0,0.5);
+  fill: #fff;
+  color: #fff;
+
+ }
+ .marco{
+     height: 658px;
+     width: 1370px;
+     display: block;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+
+     background-image: url("../img/shell-navidad-photobooth1.png");
+  background-size:1370px 658px;
+  background-repeat: no-repeat;
+
+ }
+ .marco_ganadores{
+    height: 658px;
+    width: 1370px;
+    display: block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-image: url("../img/shell-navidad-photobooth1.png");
+  background-size:1370px 658px;
+  background-repeat: no-repeat;
+  /*background-image: radial-gradient( rgb(43, 204, 164) 30%, rgb(36, 48, 158));*/
+  
+
+ }
+
+ 
+ .js-odoo{
+  font-family: 'Inconsolata';
+  font-weight: bold;
+  font-size: 12vmin;
+  text-shadow: 1px 1px 5px rgba(0,0,0,0.5);
+  fill: rgb(19, 14, 14);
+  color: #fff;
+  display: flex;
+  padding-left: 100px;
+  justify-content: center;
+  align-items: center;
+
+ }
+
+ .js-odoo2{
+  font-family: 'Inconsolata';
+  font-weight: bold;
+  font-size: 12vmin;
+  text-shadow: 1px 1px 5px rgba(0,0,0,0.5);
+  fill: rgb(19, 14, 14);
+  color: #fff;
+  padding-right: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+ }
+ .js-odoo3{
+  font-family: 'Inconsolata';
+  font-weight: bold;
+  font-size: 10vmin;
+  text-shadow: 1px 1px 5px rgba(0,0,0,0.5);
+  fill: rgb(58, 28, 28);
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+ }
+ .js-odoo4{
+  font-family: 'Inconsolata';
+  font-weight: bold;
+  font-size: 14vmin;
+  text-shadow: 1px 1px 5px rgba(0,0,0,0.5);
+  fill: #CD5D00;
+  color: #CD5D00;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+ }
+.bootones{
+  padding-top:100px;
+}
+.boton_siguiente{
+  padding-top: 400px;
+}
+ .boton{
+  font-family: monospace;
+    border: 2px solid tomato;
+    background: transparent;
+    width: 150px;
+    font-size: 1.3rem;
+    padding: 10px 0;
+    border-radius: 5px;
+    display: block;
+    cursor: pointer;
+    margin: 1em auto;
+
+}
+
+.boton:hover{
+  background: tomato;
+  color: #fff;
+  
+}

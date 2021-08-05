@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css?family=Inconsolata');
+
+html, body {
+  overflow: hidden;
+}
+
+body {
+  
+
+  font-family: 'Inconsolata';
+  font-weight: bold;
+  font-size: 12vmin;
+  text-shadow: 1px 1px 5px rgba(0,0,0,0.5);
+  fill: #fff;
+  color: #fff;
+
+ }
+
+ .page {
+  width: 100vw;
+  height: 100vh;
+}
+
+.docScroller {
+  overflow-x: hidden;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  scroll-snap-points-y: repeat(100%);
+  scroll-snap-type: mandatory;
+  scroll-snap-destination: 100% 0%;
+}
+ .marco{
+     height: 768px;
+     width: 1370px;
+     display: block;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+
+     background-image: url("../img/shell2019.png");
+  background-size:1370px 768px;
+  background-repeat: no-repeat;
+
+  
+
+
+
+ }
+ .marco_ganadores{
+    height: 768px;
+    width: 1370px;
+    display: block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-image: url("../img/shell2019.png");
+  background-size:1370px 768px;
+  background-repeat: no-repeat;
+  /*background-image: radial-gradient( rgb(43, 204, 164) 30%, rgb(36, 48, 158));*/
+  
+
+ }
+
+ 
+ .js-odoo{
+  font-family: 'Inconsolata';
+  font-weight: normal;
+  font-size: 4vmin;
+  text-shadow: 1px 1px 5px rgba(0,0,0,0.5);
+  fill: rgb(19, 14, 14);
+  color: #fff;
+  display: flex;
+  padding-left: 50px;
+  justify-content: center;
+  align-items: block;
+
+ }
+
+ .js-odoo2{
+  font-family: 'Inconsolata';
+  font-weight: normal;
+  font-size: 4vmin;
+  text-shadow: 1px 1px 5px rgba(0,0,0,0.5);
+  fill: rgb(19, 14, 14);
+  color: #fff;
+  display: flex;
+  padding-left: 50px;
+  justify-content: center;
+  align-items: block;
+
+ }
+ .js-odoo3{
+  font-family: 'Inconsolata';
+  font-weight: normal;
+  font-size: 4vmin;
+  text-shadow: 1px 1px 5px rgba(0,0,0,0.5);
+  fill: rgb(19, 14, 14);
+  color: #fff;
+  display: flex;
+  padding-left: 50px;
+  justify-content: center;
+  align-items: block;
+
+ }
+ .js-odoo4{
+  font-family: 'Inconsolata';
+  font-weight: bold;
+  font-size: 14vmin;
+  text-shadow: 1px 1px 5px rgba(0,0,0,0.5);
+  fill: #CD5D00;
+  color: #CD5D00;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+ }
+.bootones{
+  padding-top:100px;
+}
+.boton_siguiente{
+  padding-top: 400px;
+}
+ .boton{
+  font-family: monospace;
+    border: 2px solid tomato;
+    background: transparent;
+    width: 150px;
+    font-size: 1.3rem;
+    padding: 10px 0;
+    border-radius: 5px;
+    display: block;
+    cursor: pointer;
+    margin: 1em auto;
+
+}
+
+.boton:hover{
+  background: tomato;
+  color: #fff;
+  
+}
+ul li{
+  text-align: center;
+}

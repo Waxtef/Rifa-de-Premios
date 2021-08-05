@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css?family=Inconsolata');
+
+html, body {
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+
+body {
+  background-image: url("../img/shell-navidad-photobooth1.png");
+  background-size:100% 100%;
+  background-repeat: no-repeat;
+
+  font-family: 'Tahoma';
+  font-weight: bold;
+  font-size: 12vmin;
+  text-shadow: 1px 1px 5px rgba(0,0,0,0.5);
+  fill: #fff;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ }
+ /*.marco{
+  /*background-image: radial-gradient( rgb(43, 204, 164) 30%, rgb(36, 48, 158));*/
+
+ /*}*/
+ .js-odoo{
+  font-family: 'Tahoma';
+  font-weight: bold;
+  font-size: 12vmin;
+  text-shadow: 1px 1px 5px rgba(0,0,0,0.5);
+  fill: rgb(19, 14, 14);
+  color: #fff;
+  display: flex;
+  justify-content: right;
+  align-items: center;
+
+ }
+
+ .js-odoo2{
+  font-family: 'Tahoma';
+  font-weight: bold;
+  font-size: 12vmin;
+  text-shadow: 1px 1px 5px rgba(0,0,0,0.5);
+  fill: rgb(19, 14, 14);
+  color: #fff;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+
+ }
+ .js-odoo3{
+  font-family: 'Tahoma';
+  font-weight: bold;
+  font-size: 10vmin;
+  text-shadow: 1px 1px 5px rgba(0,0,0,0.5);
+  fill: rgb(58, 28, 28);
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+ }
+ .js-odoo4{
+  font-family: 'Tahoma';
+  font-weight: bold;
+  font-size: 14vmin;
+  text-shadow: 1px 1px 5px rgba(0,0,0,0.5);
+  fill: #CD5D00;
+  color: #CD5D00;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+ }
+.bootones{
+  padding-top:100px;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+}
+ .boton{
+  font-family: monospace;
+    border: 2px solid tomato;
+    background: transparent;
+    width: 250px;
+    font-size: 1.7rem;
+    padding: 10px 0;
+    border-radius: 5px;
+    display: block;
+    cursor: pointer;
+    margin: 1em auto;
+
+}
+
+.boton:hover{
+  background: tomato;
+  color: #fff;
+  
+}
